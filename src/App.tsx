@@ -1,7 +1,9 @@
-import './App.css'
-
 const App = () => {
-	return <div>hello</div>
+	return (
+		<h1 className="text-3xl font-bold underline text-red-400">
+			Hello sssworld!
+		</h1>
+	)
 }
 
 export default App
