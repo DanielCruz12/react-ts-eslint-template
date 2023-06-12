@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 const App = () => {
 	useEffect(() => {
 		console.log(import.meta.env.VITE_URL_REACT)
+		
 	}, [])
 
 	return (
